@@ -85,4 +85,54 @@ body {
 .product .content {
   padding-top: 23%;
 }
+
+.info {
+  text-align: center;
+}
+
+.info .p1 {
+  font-style: italic;
+  line-height: 29px;
+  font-size: 24px;
+  color: rgba(0, 0, 1, 0.8);
+}
+
+.info h1 {
+  line-height: 32px;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+}
+
+.info .p2 {
+  line-height: 23px;
+  font-family: Poppins, sans-serif;
+}
+
+.info h2 {
+  line-height: 23px;
+  color: black;
+  font-weight: 700;
+  margin-top: 10%;
+  font-size: 23px;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info li {
+  margin-bottom: 20px;
+}
+
+.info li::before {
+  display: inline-block;
+  vertical-align: baseline;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: right;
+  font-family: FontAwesome;
+}
 /*# sourceMappingURL=style.css.map */
